@@ -7481,94 +7481,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="battery">
-<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="CR2032V">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
-<wire x1="1.651" y1="-1.905" x2="1.651" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.905" x2="2.286" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.905" x2="2.286" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-6.858" x2="-2.54" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="3.175" x2="-2.54" y2="6.858" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-6.858" x2="-2.54" y2="-6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-6.858" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="3.175" x2="-1.905" y2="6.858" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="-1.905" x2="1.651" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-1.905" x2="1.651" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.905" x2="1.651" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.905" x2="2.286" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="1.905" x2="1.651" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="6.858" x2="-2.54" y2="6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-3.175" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.191" y1="0" x2="-2.921" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="2.921" y1="-2.413" x2="2.921" y2="-3.683" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="-9.398" x2="-1.27" y2="-10.033" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.905" y1="9.398" x2="-1.27" y2="10.033" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-10.033" x2="0.381" y2="-10.033" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="10.033" x2="0.381" y2="10.033" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="-10.033" x2="1.016" y2="-9.398" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.381" y1="10.033" x2="1.016" y2="9.398" width="0.1524" layer="21" curve="-90"/>
-<wire x1="1.016" y1="-9.017" x2="1.651" y2="-8.382" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="9.017" x2="1.651" y2="8.382" width="0.1524" layer="21" curve="-90"/>
-<wire x1="1.016" y1="-9.398" x2="1.016" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.143" x2="1.016" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="1.143" x2="1.016" y2="9.398" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-4.445" x2="1.651" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.445" x2="1.651" y2="-8.382" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="4.445" x2="1.651" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="4.445" x2="1.651" y2="8.382" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-9.398" x2="-1.905" y2="-6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="6.858" x2="-1.905" y2="9.398" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="-5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<pad name="+@1" x="-2.54" y="5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<pad name="-" x="2.286" y="0" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<text x="4.064" y="2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0.254" y="-3.683" size="1.27" layer="21" ratio="10" rot="R90">Lith.3V</text>
-<text x="4.699" y="-9.017" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="1V2+2">
-<wire x1="-1.905" y1="0.635" x2="-1.905" y2="0" width="0.4064" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="0" x2="-1.905" y2="-0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="2.54" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-0.635" y2="-2.54" width="0.4064" layer="94"/>
-<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
-<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
-<pin name="+@1" x="2.54" y="0" visible="off" length="point" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="CR2032V" prefix="G">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
-<gates>
-<gate name="1" symbol="1V2+2" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CR2032V">
-<connects>
-<connect gate="1" pin="+" pad="+"/>
-<connect gate="1" pin="+@1" pad="+@1"/>
-<connect gate="1" pin="-" pad="-"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="linear">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
@@ -7677,6 +7589,56 @@ NS Package M08A</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Menorah">
+<packages>
+<package name="BK-913">
+<smd name="-" x="0" y="0" dx="3.96" dy="3.96" layer="1"/>
+<pad name="+" x="-10.8" y="0" drill="2"/>
+<pad name="+@1" x="10.8" y="0" drill="2"/>
+<wire x1="-11.175" y1="-7.62" x2="11.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="11.175" y1="-7.62" x2="11.175" y2="7.62" width="0.127" layer="21"/>
+<wire x1="11.175" y1="7.62" x2="-11.175" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-11.175" y1="7.62" x2="-11.175" y2="-7.62" width="0.127" layer="21"/>
+<text x="-15" y="-5" size="5" layer="21" font="vector">+</text>
+<text x="12" y="-5" size="5" layer="21" font="vector">+</text>
+<text x="-2" y="-7" size="5" layer="21" font="vector">-</text>
+</package>
+</packages>
+<symbols>
+<symbol name="1V2+2">
+<wire x1="-1.905" y1="0.635" x2="-1.905" y2="0" width="0.4064" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="0" x2="-1.905" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="2.54" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-2.54" width="0.4064" layer="94"/>
+<text x="-2.54" y="3.175" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="+" x="5.08" y="0" visible="pad" length="short" direction="pwr" rot="R180"/>
+<pin name="-" x="-5.08" y="0" visible="pad" length="short" direction="pwr"/>
+<pin name="+@1" x="2.54" y="0" visible="off" length="point" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CR2032">
+<gates>
+<gate name="G$1" symbol="1V2+2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BK-913">
+<connects>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="+@1" pad="+@1"/>
+<connect gate="G$1" pin="-" pad="-"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7706,12 +7668,14 @@ NS Package M08A</description>
 <attribute name="DIGIKEY" value="1276-5504-1-ND"/>
 </part>
 <part name="GND" library="supply1" deviceset="PE" device=""/>
-<part name="G1" library="battery" deviceset="CR2032V" device="">
+<part name="G1" library="Menorah" deviceset="CR2032" device="">
 <attribute name="DIGIKEY" value="BK-913-ND"/>
+<attribute name="LAYOUT-VERIFIED" value="No"/>
 </part>
 <part name="GND1" library="supply1" deviceset="PE" device=""/>
 <part name="S10" library="switch" deviceset="RDT1034" device="">
 <attribute name="DIGIKEY" value="EG4791-ND"/>
+<attribute name="LAYOUT-VERIFIED" value="No"/>
 </part>
 <part name="C1" library="rcl" deviceset="C-US" device="C1206" value="100uF">
 <attribute name="DIGIKEY" value="490-4539-1-ND"/>
@@ -7823,12 +7787,14 @@ NS Package M08A</description>
 <attribute name="DIGIKEY" x="312.42" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND" gate="M" x="327.66" y="152.4" smashed="yes"/>
-<instance part="G1" gate="1" x="48.26" y="121.92" rot="R90">
+<instance part="G1" gate="G$1" x="48.26" y="121.92" rot="R90">
 <attribute name="DIGIKEY" x="48.26" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="LAYOUT-VERIFIED" x="48.26" y="121.92" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="GND1" gate="M" x="48.26" y="111.76" smashed="yes"/>
 <instance part="S10" gate="G$1" x="66.04" y="137.16">
 <attribute name="DIGIKEY" x="66.04" y="137.16" size="1.778" layer="96" display="off"/>
+<attribute name="LAYOUT-VERIFIED" x="66.04" y="137.16" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="C1" gate="G$1" x="76.2" y="124.46">
 <attribute name="DIGIKEY" x="76.2" y="124.46" size="1.778" layer="96" display="off"/>
@@ -8024,7 +7990,7 @@ NS Package M08A</description>
 </segment>
 <segment>
 <pinref part="GND1" gate="M" pin="PE"/>
-<pinref part="G1" gate="1" pin="-"/>
+<pinref part="G1" gate="G$1" pin="-"/>
 <wire x1="48.26" y1="114.3" x2="48.26" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -8065,7 +8031,7 @@ NS Package M08A</description>
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="G1" gate="1" pin="+"/>
+<pinref part="G1" gate="G$1" pin="+"/>
 <wire x1="48.26" y1="142.24" x2="48.26" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
 <pinref part="S10" gate="G$1" pin="A1"/>

@@ -1250,59 +1250,6 @@ Source: http://www.osram.convergy.de/ ... LG_R971.pdf</description>
 </package>
 </packages>
 </library>
-<library name="battery">
-<description>&lt;b&gt;Lithium Batteries and NC Accus&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="CR2032V">
-<description>&lt;b&gt;LI BATTERY&lt;/b&gt; Varta</description>
-<wire x1="1.651" y1="-1.905" x2="1.651" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.905" x2="2.286" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.905" x2="2.286" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="-6.858" x2="-2.54" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-2.54" y1="3.175" x2="-2.54" y2="6.858" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-6.858" x2="-2.54" y2="-6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-6.858" x2="-1.905" y2="-3.175" width="0.1524" layer="51"/>
-<wire x1="-1.905" y1="-3.175" x2="-1.905" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="3.175" x2="-1.905" y2="6.858" width="0.1524" layer="51"/>
-<wire x1="1.651" y1="-1.905" x2="1.651" y2="1.905" width="0.1524" layer="51"/>
-<wire x1="2.286" y1="-1.905" x2="1.651" y2="-1.905" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="1.905" x2="1.651" y2="1.905" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-1.905" x2="2.286" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="1.905" x2="1.651" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="6.858" x2="-2.54" y2="6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="3.175" x2="-2.54" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-3.175" x2="-2.54" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.191" y1="0" x2="-2.921" y2="0" width="0.254" layer="21"/>
-<wire x1="-3.556" y1="0.635" x2="-3.556" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="2.921" y1="-2.413" x2="2.921" y2="-3.683" width="0.254" layer="21"/>
-<wire x1="-1.905" y1="-9.398" x2="-1.27" y2="-10.033" width="0.1524" layer="21" curve="90"/>
-<wire x1="-1.905" y1="9.398" x2="-1.27" y2="10.033" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.27" y1="-10.033" x2="0.381" y2="-10.033" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="10.033" x2="0.381" y2="10.033" width="0.1524" layer="21"/>
-<wire x1="0.381" y1="-10.033" x2="1.016" y2="-9.398" width="0.1524" layer="21" curve="90"/>
-<wire x1="0.381" y1="10.033" x2="1.016" y2="9.398" width="0.1524" layer="21" curve="-90"/>
-<wire x1="1.016" y1="-9.017" x2="1.651" y2="-8.382" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.016" y1="9.017" x2="1.651" y2="8.382" width="0.1524" layer="21" curve="-90"/>
-<wire x1="1.016" y1="-9.398" x2="1.016" y2="-1.143" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="1.143" x2="1.016" y2="-1.143" width="0.1524" layer="51"/>
-<wire x1="1.016" y1="1.143" x2="1.016" y2="9.398" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="-4.445" x2="1.651" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="-4.445" x2="1.651" y2="-8.382" width="0.1524" layer="21"/>
-<wire x1="2.286" y1="4.445" x2="1.651" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="1.651" y1="4.445" x2="1.651" y2="8.382" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-9.398" x2="-1.905" y2="-6.858" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="6.858" x2="-1.905" y2="9.398" width="0.1524" layer="21"/>
-<pad name="+" x="-2.54" y="-5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<pad name="+@1" x="-2.54" y="5.08" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<pad name="-" x="2.286" y="0" drill="1.3208" diameter="3.1496" shape="octagon"/>
-<text x="4.064" y="2.54" size="1.27" layer="25" ratio="10" rot="R90">&gt;NAME</text>
-<text x="0.254" y="-3.683" size="1.27" layer="21" ratio="10" rot="R90">Lith.3V</text>
-<text x="4.699" y="-9.017" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
-</package>
-</packages>
-</library>
 <library name="linear">
 <description>&lt;b&gt;Linear Devices&lt;/b&gt;&lt;p&gt;
 Operational amplifiers,  comparators, voltage regulators, ADCs, DACs, etc.&lt;p&gt;
@@ -1336,6 +1283,22 @@ NS Package M08A</description>
 <rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
 <rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
 <rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="Menorah">
+<packages>
+<package name="BK-913">
+<smd name="-" x="0" y="0" dx="3.96" dy="3.96" layer="1"/>
+<pad name="+" x="-10.8" y="0" drill="2"/>
+<pad name="+@1" x="10.8" y="0" drill="2"/>
+<wire x1="-11.175" y1="-7.62" x2="11.175" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="11.175" y1="-7.62" x2="11.175" y2="7.62" width="0.127" layer="21"/>
+<wire x1="11.175" y1="7.62" x2="-11.175" y2="7.62" width="0.127" layer="21"/>
+<wire x1="-11.175" y1="7.62" x2="-11.175" y2="-7.62" width="0.127" layer="21"/>
+<text x="-15" y="-5" size="5" layer="21" font="vector">+</text>
+<text x="12" y="-5" size="5" layer="21" font="vector">+</text>
+<text x="-2" y="-7" size="5" layer="21" font="vector">-</text>
 </package>
 </packages>
 </library>
@@ -1546,11 +1509,13 @@ design rules under a new name.</description>
 <element name="R9" library="rcl" package="R0805" value="68" x="-100.33" y="-157.48">
 <attribute name="DIGIKEY" value="1276-5504-1-ND" x="-100.33" y="-157.48" size="1.778" layer="27" display="off"/>
 </element>
-<element name="G1" library="battery" package="CR2032V" value="CR2032V" x="-109.22" y="-147.32">
+<element name="G1" library="Menorah" package="BK-913" value="CR2032" x="-109.22" y="-147.32">
 <attribute name="DIGIKEY" value="BK-913-ND" x="-109.22" y="-147.32" size="1.778" layer="27" display="off"/>
+<attribute name="LAYOUT-VERIFIED" value="No" x="-109.22" y="-147.32" size="1.778" layer="27" display="off"/>
 </element>
 <element name="S10" library="switch" package="RDT1034" value="RDT1034" x="-107.95" y="-163.83">
 <attribute name="DIGIKEY" value="EG4791-ND" x="-107.95" y="-163.83" size="1.778" layer="27" display="off"/>
+<attribute name="LAYOUT-VERIFIED" value="No" x="-107.95" y="-163.83" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C1" library="rcl" package="C1206" value="100uF" x="-110.49" y="-172.72">
 <attribute name="DIGIKEY" value="490-4539-1-ND" x="-110.49" y="-172.72" size="1.778" layer="27" display="off"/>
@@ -1692,8 +1657,8 @@ design rules under a new name.</description>
 <contactref element="LED6" pad="C"/>
 <contactref element="LED7" pad="C"/>
 <contactref element="LED8" pad="C"/>
-<wire x1="-106.934" y1="-147.32" x2="-97.79" y2="-146.27" width="0" layer="19" extent="1-1"/>
-<wire x1="-109.09" y1="-172.72" x2="-106.934" y2="-147.32" width="0" layer="19" extent="1-1"/>
+<wire x1="-109.22" y1="-147.32" x2="-97.79" y2="-146.27" width="0" layer="19" extent="1-1"/>
+<wire x1="-109.09" y1="-172.72" x2="-109.22" y2="-147.32" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.44" y1="-179.07" x2="-109.09" y2="-172.72" width="0" layer="19" extent="1-1"/>
 <wire x1="-109.54" y1="-184.15" x2="-111.44" y2="-179.07" width="0" layer="19" extent="1-1"/>
 <wire x1="-116.205" y1="-182.94" x2="-111.44" y2="-179.07" width="0" layer="19" extent="1-1"/>
@@ -1724,7 +1689,7 @@ design rules under a new name.</description>
 <wire x1="-118.745" y1="-177.74" x2="-120.33" y2="-189.23" width="0" layer="19" extent="1-1"/>
 <wire x1="-111.125" y1="-163.195" x2="-118.745" y2="-177.74" width="0" layer="19" extent="1-1"/>
 <wire x1="-104.775" y1="-164.465" x2="-111.125" y2="-163.195" width="0" layer="19" extent="1-1"/>
-<wire x1="-111.76" y1="-152.4" x2="-111.125" y2="-163.195" width="0" layer="19" extent="1-1"/>
+<wire x1="-120.02" y1="-147.32" x2="-111.125" y2="-163.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$19">
 <contactref element="R12" pad="2"/>
@@ -1822,6 +1787,9 @@ design rules under a new name.</description>
 <contactref element="S8" pad="2.2"/>
 <contactref element="S9" pad="2.1"/>
 <wire x1="-152.4" y1="-321.42" x2="-152.4" y2="-328.82" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+">
+<contactref element="G1" pad="+@1"/>
 </signal>
 </signals>
 </board>
