@@ -57,123 +57,6 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="switch">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, Siemens, C&amp;K, ITT, and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="2P2T">
-<wire x1="-5.4" y1="4.9" x2="5.4" y2="4.9" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="4.9" x2="5.4" y2="-4.9" width="0.2032" layer="21"/>
-<wire x1="5.4" y1="-4.9" x2="-5.4" y2="-4.9" width="0.2032" layer="21"/>
-<wire x1="-5.4" y1="-4.9" x2="-5.4" y2="4.9" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="2" x2="-2.65" y2="2" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="2" x2="-2.15" y2="2" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="2" x2="-1.65" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="2" x2="-1.15" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.15" y1="2" x2="-0.65" y2="2" width="0.2032" layer="51"/>
-<wire x1="-0.65" y1="2" x2="3.15" y2="2" width="0.2032" layer="51"/>
-<wire x1="3.15" y1="2" x2="3.15" y2="-2" width="0.2032" layer="51"/>
-<wire x1="3.15" y1="-2" x2="-0.15" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-0.15" y1="-2" x2="-0.65" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-0.65" y1="-2" x2="-1.15" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-1.15" y1="-2" x2="-1.65" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="-2" x2="-2.15" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-2.15" y1="-2" x2="-2.65" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="-2" x2="-3.15" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-3.15" y1="-2" x2="-3.15" y2="2" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="-2" x2="-2.65" y2="2" width="0.2032" layer="51"/>
-<wire x1="-2.15" y1="-2" x2="-2.15" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.65" y1="-2" x2="-1.65" y2="2" width="0.2032" layer="21"/>
-<wire x1="-1.15" y1="-2" x2="-1.15" y2="2" width="0.2032" layer="21"/>
-<wire x1="-0.65" y1="-2" x2="-0.65" y2="2" width="0.2032" layer="51"/>
-<wire x1="-0.15" y1="-2" x2="-0.15" y2="2" width="0.2032" layer="51"/>
-<wire x1="-2.65" y1="-1.5" x2="-2.65" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-3.15" y1="-1.5" x2="-3.15" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-0.65" y1="-1.5" x2="-0.65" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="-0.15" y1="-1.5" x2="-0.15" y2="1.5" width="0.2032" layer="21"/>
-<wire x1="3.15" y1="1.5" x2="3.15" y2="-1.5" width="0.2032" layer="21"/>
-<pad name="1.1" x="-3" y="2.65" drill="1.3" diameter="1.9304"/>
-<pad name="2.1" x="0" y="2.65" drill="1.3" diameter="1.9304"/>
-<pad name="3.1" x="3" y="2.65" drill="1.3" diameter="1.9304"/>
-<pad name="1.2" x="-3" y="-2.65" drill="1.3" diameter="1.9304"/>
-<pad name="2.2" x="0" y="-2.65" drill="1.3" diameter="1.9304"/>
-<pad name="3.2" x="3" y="-2.65" drill="1.3" diameter="1.9304"/>
-<text x="-5.588" y="-2.794" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="2P2T">
-<wire x1="0.381" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.413" x2="-2.54" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.413" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.413" x2="2.54" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.413" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.413" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="-2.413" x2="-2.54" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-2.159" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.778" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.889" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.508" y1="0" x2="-0.381" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.397" y1="0" x2="-1.143" y2="0" width="0.1524" layer="94"/>
-<circle x="-2.54" y="1.651" radius="0.381" width="0.254" layer="94"/>
-<circle x="0" y="1.651" radius="0.381" width="0.254" layer="94"/>
-<circle x="2.54" y="1.651" radius="0.381" width="0.254" layer="94"/>
-<circle x="-2.54" y="-1.651" radius="0.381" width="0.254" layer="94"/>
-<circle x="0" y="-1.651" radius="0.381" width="0.254" layer="94"/>
-<circle x="2.54" y="-1.651" radius="0.381" width="0.254" layer="94"/>
-<text x="5.08" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-1.397" x2="-2.286" y2="1.397" layer="94"/>
-<rectangle x1="-0.254" y1="-1.397" x2="0.254" y2="1.397" layer="94"/>
-<pin name="1.1" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="2.1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="3.1" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="1.2" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="2.2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="3.2" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<polygon width="0.1524" layer="94">
-<vertex x="0.381" y="0"/>
-<vertex x="1.016" y="0.254"/>
-<vertex x="1.016" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="2.159" y="0"/>
-<vertex x="1.524" y="-0.254"/>
-<vertex x="1.524" y="0.254"/>
-</polygon>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="2P2T" prefix="S">
-<description>&lt;b&gt;SLIDE SWITCH 2P2T&lt;/b&gt; Part No. SS-22F05-G(A)4&lt;p&gt;
-Source: CANAL ELECTRONIC CO., LTD .. switsch.pdf</description>
-<gates>
-<gate name="G$1" symbol="2P2T" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="2P2T">
-<connects>
-<connect gate="G$1" pin="1.1" pad="1.1"/>
-<connect gate="G$1" pin="1.2" pad="1.2"/>
-<connect gate="G$1" pin="2.1" pad="2.1"/>
-<connect gate="G$1" pin="2.2" pad="2.2"/>
-<connect gate="G$1" pin="3.1" pad="3.1"/>
-<connect gate="G$1" pin="3.2" pad="3.2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rcl">
 <description>&lt;b&gt;Resistors, Capacitors, Inductors&lt;/b&gt;&lt;p&gt;
 Based on the previous libraries:
@@ -7557,6 +7440,18 @@ NS Package M08A</description>
 <wire x1="0" y1="1" x2="1.75" y2="1" width="0.127" layer="21"/>
 <wire x1="0" y1="2" x2="0" y2="1" width="0.127" layer="21"/>
 </package>
+<package name="JS202011SCQN">
+<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="4" x="-2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="6" x="2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<wire x1="-4.5" y1="4.5" x2="4.5" y2="4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="4.5" x2="4.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-4.5" x2="-4.5" y2="-4.5" width="0.127" layer="21"/>
+<wire x1="-4.5" y1="-4.5" x2="-4.5" y2="4.5" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1V2+2">
@@ -7596,6 +7491,50 @@ NS Package M08A</description>
 <pin name="1@B" x="5.08" y="-2.54" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
 <pin name="1@A" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2" rot="R180"/>
 </symbol>
+<symbol name="2P2T">
+<wire x1="0.381" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="2.54" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.413" x2="-2.54" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.413" x2="0" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.413" x2="2.54" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.413" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.413" x2="0" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.413" x2="-2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="0" x2="-2.032" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.381" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.397" y1="0" x2="-1.143" y2="0" width="0.1524" layer="94"/>
+<circle x="-2.54" y="1.651" radius="0.381" width="0.254" layer="94"/>
+<circle x="0" y="1.651" radius="0.381" width="0.254" layer="94"/>
+<circle x="2.54" y="1.651" radius="0.381" width="0.254" layer="94"/>
+<circle x="-2.54" y="-1.651" radius="0.381" width="0.254" layer="94"/>
+<circle x="0" y="-1.651" radius="0.381" width="0.254" layer="94"/>
+<circle x="2.54" y="-1.651" radius="0.381" width="0.254" layer="94"/>
+<text x="5.08" y="1.27" size="1.778" layer="95">&gt;NAME</text>
+<text x="5.08" y="-1.27" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-1.397" x2="-2.286" y2="1.397" layer="94"/>
+<rectangle x1="-0.254" y1="-1.397" x2="0.254" y2="1.397" layer="94"/>
+<pin name="4" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="5" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="6" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="-2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.381" y="0"/>
+<vertex x="1.016" y="0.254"/>
+<vertex x="1.016" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.159" y="0"/>
+<vertex x="1.524" y="-0.254"/>
+<vertex x="1.524" y="0.254"/>
+</polygon>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="CR2032">
@@ -7633,6 +7572,26 @@ NS Package M08A</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="SWITCH-DPDT">
+<gates>
+<gate name="S$1" symbol="2P2T" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JS202011SCQN">
+<connects>
+<connect gate="S$1" pin="1" pad="1"/>
+<connect gate="S$1" pin="2" pad="2"/>
+<connect gate="S$1" pin="3" pad="3"/>
+<connect gate="S$1" pin="4" pad="4"/>
+<connect gate="S$1" pin="5" pad="5"/>
+<connect gate="S$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -7645,7 +7604,7 @@ NS Package M08A</description>
 </class>
 </classes>
 <parts>
-<part name="S1" library="switch" deviceset="2P2T" device="">
+<part name="S1" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
 <part name="R1" library="rcl" deviceset="R-US_" device="R0805" value="56">
@@ -7729,38 +7688,40 @@ NS Package M08A</description>
 <part name="R8" library="rcl" deviceset="R-US_" device="R0805" value="56">
 <attribute name="DIGIKEY" value="1276-5502-1-ND"/>
 </part>
-<part name="S2" library="switch" deviceset="2P2T" device="">
+<part name="S2" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S3" library="switch" deviceset="2P2T" device="">
+<part name="S3" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S4" library="switch" deviceset="2P2T" device="">
+<part name="S4" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S5" library="switch" deviceset="2P2T" device="">
+<part name="S5" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S6" library="switch" deviceset="2P2T" device="">
+<part name="S6" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S7" library="switch" deviceset="2P2T" device="">
+<part name="S7" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S8" library="switch" deviceset="2P2T" device="">
+<part name="S8" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S9" library="switch" deviceset="2P2T" device="">
+<part name="S9" library="Menorah" deviceset="SWITCH-DPDT" device="">
 <attribute name="DIGIKEY" value="401-2002-1-ND"/>
 </part>
-<part name="S10" library="Menorah" deviceset="SWITCH-SPST" device=""/>
+<part name="S10" library="Menorah" deviceset="SWITCH-SPST" device="">
+<attribute name="DIGIKEY" value="EG4791-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="S1" gate="G$1" x="162.56" y="132.08" rot="R90">
+<instance part="S1" gate="S$1" x="162.56" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="162.56" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
 <instance part="R1" gate="G$1" x="170.18" y="142.24" rot="R90">
@@ -7844,31 +7805,33 @@ NS Package M08A</description>
 <instance part="R8" gate="G$1" x="294.64" y="142.24" rot="R90">
 <attribute name="DIGIKEY" x="294.64" y="142.24" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S2" gate="G$1" x="180.34" y="132.08" rot="R90">
+<instance part="S2" gate="S$1" x="180.34" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="180.34" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S3" gate="G$1" x="198.12" y="132.08" rot="R90">
+<instance part="S3" gate="S$1" x="198.12" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="198.12" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S4" gate="G$1" x="215.9" y="132.08" rot="R90">
+<instance part="S4" gate="S$1" x="215.9" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="215.9" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S5" gate="G$1" x="233.68" y="132.08" rot="R90">
+<instance part="S5" gate="S$1" x="233.68" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="233.68" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S6" gate="G$1" x="251.46" y="132.08" rot="R90">
+<instance part="S6" gate="S$1" x="251.46" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="251.46" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S7" gate="G$1" x="269.24" y="132.08" rot="R90">
+<instance part="S7" gate="S$1" x="269.24" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="269.24" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S8" gate="G$1" x="287.02" y="132.08" rot="R90">
+<instance part="S8" gate="S$1" x="287.02" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="287.02" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S9" gate="G$1" x="304.8" y="132.08" rot="R90">
+<instance part="S9" gate="S$1" x="304.8" y="132.08" rot="R90">
 <attribute name="DIGIKEY" x="304.8" y="132.08" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
-<instance part="S10" gate="G$1" x="63.5" y="134.62"/>
+<instance part="S10" gate="G$1" x="63.5" y="134.62">
+<attribute name="DIGIKEY" x="63.5" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8040,69 +8003,69 @@ NS Package M08A</description>
 <net name="N$21" class="0">
 <segment>
 <pinref part="IC1" gate="A" pin="OUT"/>
-<pinref part="S1" gate="G$1" pin="2.1"/>
+<pinref part="S1" gate="S$1" pin="5"/>
 <wire x1="147.32" y1="132.08" x2="157.48" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="2.2"/>
+<pinref part="S1" gate="S$1" pin="2"/>
 <wire x1="167.64" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2.1"/>
+<pinref part="S2" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$24" class="0">
 <segment>
 <wire x1="185.42" y1="132.08" x2="193.04" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S2" gate="G$1" pin="2.2"/>
-<pinref part="S3" gate="G$1" pin="2.1"/>
+<pinref part="S2" gate="S$1" pin="2"/>
+<pinref part="S3" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
 <wire x1="203.2" y1="132.08" x2="210.82" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="2.2"/>
-<pinref part="S4" gate="G$1" pin="2.1"/>
+<pinref part="S3" gate="S$1" pin="2"/>
+<pinref part="S4" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
 <wire x1="220.98" y1="132.08" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S4" gate="G$1" pin="2.2"/>
-<pinref part="S5" gate="G$1" pin="2.1"/>
+<pinref part="S4" gate="S$1" pin="2"/>
+<pinref part="S5" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
 <wire x1="238.76" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S5" gate="G$1" pin="2.2"/>
-<pinref part="S6" gate="G$1" pin="2.1"/>
+<pinref part="S5" gate="S$1" pin="2"/>
+<pinref part="S6" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$28" class="0">
 <segment>
 <wire x1="256.54" y1="132.08" x2="264.16" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S6" gate="G$1" pin="2.2"/>
-<pinref part="S7" gate="G$1" pin="2.1"/>
+<pinref part="S6" gate="S$1" pin="2"/>
+<pinref part="S7" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$29" class="0">
 <segment>
 <wire x1="274.32" y1="132.08" x2="281.94" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S7" gate="G$1" pin="2.2"/>
-<pinref part="S8" gate="G$1" pin="2.1"/>
+<pinref part="S7" gate="S$1" pin="2"/>
+<pinref part="S8" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
 <wire x1="292.1" y1="132.08" x2="299.72" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="S8" gate="G$1" pin="2.2"/>
-<pinref part="S9" gate="G$1" pin="2.1"/>
+<pinref part="S8" gate="S$1" pin="2"/>
+<pinref part="S9" gate="S$1" pin="5"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="3.2"/>
+<pinref part="S1" gate="S$1" pin="3"/>
 <wire x1="167.64" y1="134.62" x2="170.18" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="170.18" y1="134.62" x2="170.18" y2="137.16" width="0.1524" layer="91"/>
@@ -8113,7 +8076,7 @@ NS Package M08A</description>
 <wire x1="185.42" y1="134.62" x2="187.96" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="134.62" x2="187.96" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<pinref part="S2" gate="G$1" pin="3.2"/>
+<pinref part="S2" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -8121,7 +8084,7 @@ NS Package M08A</description>
 <wire x1="203.2" y1="134.62" x2="205.74" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="134.62" x2="205.74" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="S3" gate="G$1" pin="3.2"/>
+<pinref part="S3" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$13" class="0">
@@ -8129,7 +8092,7 @@ NS Package M08A</description>
 <wire x1="220.98" y1="134.62" x2="223.52" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="134.62" x2="223.52" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="S4" gate="G$1" pin="3.2"/>
+<pinref part="S4" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -8137,7 +8100,7 @@ NS Package M08A</description>
 <wire x1="238.76" y1="134.62" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="241.3" y1="134.62" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="S5" gate="G$1" pin="3.2"/>
+<pinref part="S5" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -8145,7 +8108,7 @@ NS Package M08A</description>
 <wire x1="256.54" y1="134.62" x2="259.08" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="259.08" y1="134.62" x2="259.08" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="1"/>
-<pinref part="S6" gate="G$1" pin="3.2"/>
+<pinref part="S6" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -8153,7 +8116,7 @@ NS Package M08A</description>
 <wire x1="274.32" y1="134.62" x2="276.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="276.86" y1="134.62" x2="276.86" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<pinref part="S7" gate="G$1" pin="3.2"/>
+<pinref part="S7" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -8161,7 +8124,7 @@ NS Package M08A</description>
 <wire x1="292.1" y1="134.62" x2="294.64" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="294.64" y1="134.62" x2="294.64" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="S8" gate="G$1" pin="3.2"/>
+<pinref part="S8" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -8169,7 +8132,7 @@ NS Package M08A</description>
 <wire x1="309.88" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 <wire x1="312.42" y1="134.62" x2="312.42" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="S9" gate="G$1" pin="3.2"/>
+<pinref part="S9" gate="S$1" pin="3"/>
 </segment>
 </net>
 <net name="N$22" class="0">
