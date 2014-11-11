@@ -1516,7 +1516,7 @@ design rules under a new name.</description>
 </element>
 <element name="S10" library="Menorah" package="KS-01Q-01" value="SWITCH-SPST" x="43.34" y="27.62" smashed="yes" rot="R270">
 <attribute name="DIGIKEY" value="EG4791-ND" x="43.34" y="27.62" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="49.22" y="32.93" size="1.27" layer="25" rot="R270"/>
+<attribute name="NAME" x="37.78" y="31.07" size="1.27" layer="25" rot="R90"/>
 </element>
 <element name="R11" library="rcl" package="R0805" value="100" x="43" y="19" smashed="yes" rot="R180">
 <attribute name="DIGIKEY" value="1276-5508-1-ND" x="43" y="19" size="1.778" layer="27" rot="R180" display="off"/>
